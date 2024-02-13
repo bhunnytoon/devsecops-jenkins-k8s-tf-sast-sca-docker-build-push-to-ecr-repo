@@ -40,8 +40,6 @@ pipeline {
             steps {
                    anchore engineurl: 'http://13.250.126.176:8228/v2', name: 'latest'
                 }
-            }
-    	}
-	    
+            }    
   }
 }
